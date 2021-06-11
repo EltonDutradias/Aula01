@@ -6,9 +6,9 @@ public class Calculadora {
 		double valor1; 
 		double valor2; 
 		double soma, divisao, multiplicacao, subtracao;
-		System.out.println("Por favor, digite um valor:"); 
+		System.out.println("Por favor, digite o primeiro valor:"); 
 		valor1 = leitor.nextDouble(); 
-		System.out.println("Digite mais um valor:"); 
+		System.out.println("Digite o segundo valor:"); 
 		valor2 = leitor.nextDouble(); 
 		soma = valor1 + valor2; 
 		subtracao = valor1 - valor2;  
